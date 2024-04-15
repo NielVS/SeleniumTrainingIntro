@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T20:24:51 CEST" name="Default suite" finished-at="2024-04-10T20:24:53 CEST" duration-ms="1618">
+    <groups>
+    </groups>
+    <test started-at="2024-04-10T20:24:51 CEST" name="Default test" finished-at="2024-04-10T20:24:53 CEST" duration-ms="1618">
+      <class name="TestNGExercise10.Exercise10Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNGExercise10.Exercise10Test@5c08c46a]" started-at="2024-04-10T20:24:51 CEST" name="beforeSuite" finished-at="2024-04-10T20:24:51 CEST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="openDriverAndLogOutTest()[pri:0, instance:TestNGExercise10.Exercise10Test@5c08c46a]" started-at="2024-04-10T20:24:51 CEST" name="openDriverAndLogOutTest" finished-at="2024-04-10T20:24:52 CEST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriverAndLogOutTest -->
+        <test-method signature="logInWithInCorrectCredentialsTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGExercise10.Exercise10Test@5c08c46a]" started-at="2024-04-10T20:24:52 CEST" name="logInWithInCorrectCredentialsTest" data-provider="test1" finished-at="2024-04-10T20:24:52 CEST" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[incorrectPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Unable to log in with the given credentials. Please try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInCorrectCredentialsTest -->
+        <test-method signature="logInWithInCorrectCredentialsTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGExercise10.Exercise10Test@5c08c46a]" started-at="2024-04-10T20:24:52 CEST" name="logInWithInCorrectCredentialsTest" data-provider="test1" finished-at="2024-04-10T20:24:53 CEST" duration-ms="377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please fill in all the fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInCorrectCredentialsTest -->
+        <test-method signature="logInWithInCorrectCredentialsTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestNGExercise10.Exercise10Test@5c08c46a]" started-at="2024-04-10T20:24:53 CEST" name="logInWithInCorrectCredentialsTest" data-provider="test1" finished-at="2024-04-10T20:24:53 CEST" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please fill in all the fields.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInWithInCorrectCredentialsTest -->
+      </class> <!-- TestNGExercise10.Exercise10Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
